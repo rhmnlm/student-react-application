@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ececec;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.table>thead {
+     background-color: #362F4B;
+     color: white;
+     border: 1px solid #362F4B
+}
+
+.table{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.body{
+     background-color: #ececec;
+}
+
+.student-modal .modal-footer button {
+     background-color: #FFBF00;
+     border: #cb7300;
+}
+
+.student-modal .modal-header {
+     background-color: #362F4B;
+     color: white;
+     border: 1px solid #362F4B
+}
+
+.student-modal .modal-header button{
+     background-color: white;
+}
+
+.add-student {
+     --bs-btn-bg: #FFBF00;
+     color:red;
+     border: #cb7300;
+}
