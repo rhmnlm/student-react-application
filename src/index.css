@@ -47,3 +47,26 @@ code {
      color:red;
      border: #cb7300;
 }
+
+#modalTable {
+     border-collapse: collapse;
+     width: 100%;
+}
+   
+#modalTable td, #customers th {
+border: 1px solid rgb(197, 197, 197);
+padding: 8px;
+}
+   
+#modalTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#modalTable tr:hover {background-color: #ddd;}
+
+#modalTable th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #362F4B;
+color: white;
+border: 1px solid #362F4B;
+}

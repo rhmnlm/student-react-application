@@ -31,7 +31,9 @@ class CourseService {
 
      deleteCourse(course){
           return axios.delete(COURSE_API + "delete",
-          course)
+          {
+               data: course
+          })
      }
 
 }

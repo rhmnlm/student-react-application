@@ -13,7 +13,8 @@ class StudentService {
                               pageNum: pageNumber,
                               pageSize: pageSizes
                          }
-               });
+               }
+          )
      }
 
      getStudentById(id){
@@ -34,7 +35,9 @@ class StudentService {
 
      deleteStudent(student){
           return axios.delete(STUDENT_API + "delete",
-          student
+          {
+               data: student
+          }
           )
      }
 
@@ -50,8 +53,14 @@ class StudentService {
           )
      }
 
-     getStudentByCourseId(courseId){
-          return axios.get(STUDENT_API + "course/" + courseId
+     getStudentByCourseId(courseId, pageNumber, pageSizes){
+          return axios.get(STUDENT_API + "course/" + courseId,
+               {
+                    params: {
+                              pageNum: pageNumber,
+                              pageSize: pageSizes
+                         }
+               }
           )
      }
 
